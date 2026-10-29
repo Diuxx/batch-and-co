@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="Batch cooking local : planning, recettes, calories, prix et liste de courses.">
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body>
+{{ content | safe }}
+<script type="application/json" id="catalog-seed">{{ catalog | json | safe }}</script>
+<script type="module" src="/assets/js/app.js"></script>
+</body>
+</html>

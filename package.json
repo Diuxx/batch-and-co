@@ -1,0 +1,16 @@
+{
+  "name": "batch-and-co",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Planificateur de batch cooking local avec Eleventy",
+  "scripts": {
+    "dev": "eleventy --serve --watch",
+    "build": "eleventy",
+    "test": "node --test",
+    "check:data": "node scripts/validate-catalog.cjs"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.7"
+  },
+  "engines": {"node": ">=20"}
+}

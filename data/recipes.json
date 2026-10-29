@@ -1,0 +1,1276 @@
+[
+  {
+    "id": "poulet-riz",
+    "name": "Poulet, riz & brocoli",
+    "emoji": "🍗",
+    "category": "Protéiné",
+    "batch": true,
+    "items": [
+      {
+        "ingredientId": "poulet",
+        "grams": 160
+      },
+      {
+        "ingredientId": "riz",
+        "grams": 85
+      },
+      {
+        "ingredientId": "brocoli",
+        "grams": 180
+      },
+      {
+        "ingredientId": "huile",
+        "grams": 10
+      },
+      {
+        "ingredientId": "ail",
+        "grams": 4
+      }
+    ]
+  },
+  {
+    "id": "bolo",
+    "name": "Pâtes bolognaise",
+    "emoji": "🍝",
+    "category": "Protéiné",
+    "batch": true,
+    "items": [
+      {
+        "ingredientId": "pates",
+        "grams": 100
+      },
+      {
+        "ingredientId": "boeuf",
+        "grams": 140
+      },
+      {
+        "ingredientId": "tomate-conserve",
+        "grams": 180
+      },
+      {
+        "ingredientId": "oignon",
+        "grams": 50
+      },
+      {
+        "ingredientId": "huile",
+        "grams": 8
+      }
+    ]
+  },
+  {
+    "id": "curry-lentilles",
+    "name": "Curry de lentilles corail",
+    "emoji": "🍛",
+    "category": "Végétarien",
+    "batch": true,
+    "items": [
+      {
+        "ingredientId": "lentille",
+        "grams": 95
+      },
+      {
+        "ingredientId": "coco",
+        "grams": 90
+      },
+      {
+        "ingredientId": "epinard",
+        "grams": 100
+      },
+      {
+        "ingredientId": "oignon",
+        "grams": 70
+      },
+      {
+        "ingredientId": "curry",
+        "grams": 5
+      }
+    ]
+  },
+  {
+    "id": "chili",
+    "name": "Chili sin carne",
+    "emoji": "🫘",
+    "category": "Végétarien",
+    "batch": true,
+    "items": [
+      {
+        "ingredientId": "haricot",
+        "grams": 170
+      },
+      {
+        "ingredientId": "riz",
+        "grams": 70
+      },
+      {
+        "ingredientId": "tomate-conserve",
+        "grams": 150
+      },
+      {
+        "ingredientId": "poivron",
+        "grams": 90
+      },
+      {
+        "ingredientId": "oignon",
+        "grams": 50
+      },
+      {
+        "ingredientId": "huile",
+        "grams": 8
+      }
+    ]
+  },
+  {
+    "id": "saumon",
+    "name": "Saumon & patate douce",
+    "emoji": "🐟",
+    "category": "Protéiné",
+    "batch": true,
+    "items": [
+      {
+        "ingredientId": "saumon",
+        "grams": 150
+      },
+      {
+        "ingredientId": "patate-douce",
+        "grams": 250
+      },
+      {
+        "ingredientId": "courgette",
+        "grams": 160
+      },
+      {
+        "ingredientId": "huile",
+        "grams": 8
+      }
+    ]
+  },
+  {
+    "id": "tofu",
+    "name": "Bowl tofu & quinoa",
+    "emoji": "🥗",
+    "category": "Végétarien",
+    "batch": true,
+    "items": [
+      {
+        "ingredientId": "tofu",
+        "grams": 180
+      },
+      {
+        "ingredientId": "quinoa",
+        "grams": 80
+      },
+      {
+        "ingredientId": "poivron",
+        "grams": 100
+      },
+      {
+        "ingredientId": "carotte",
+        "grams": 110
+      },
+      {
+        "ingredientId": "soja",
+        "grams": 15
+      }
+    ]
+  },
+  {
+    "id": "omelette",
+    "name": "Omelette complète",
+    "emoji": "🍳",
+    "category": "Rapide",
+    "batch": false,
+    "items": [
+      {
+        "ingredientId": "oeuf",
+        "grams": 150
+      },
+      {
+        "ingredientId": "pomme-terre",
+        "grams": 220
+      },
+      {
+        "ingredientId": "epinard",
+        "grams": 90
+      },
+      {
+        "ingredientId": "feta",
+        "grams": 35
+      }
+    ]
+  },
+  {
+    "id": "thon",
+    "name": "Salade thon & pois chiches",
+    "emoji": "🥙",
+    "category": "Rapide",
+    "batch": false,
+    "items": [
+      {
+        "ingredientId": "thon",
+        "grams": 130
+      },
+      {
+        "ingredientId": "pois-chiche",
+        "grams": 150
+      },
+      {
+        "ingredientId": "tomate",
+        "grams": 140
+      },
+      {
+        "ingredientId": "salade",
+        "grams": 70
+      },
+      {
+        "ingredientId": "huile",
+        "grams": 12
+      }
+    ]
+  },
+  {
+    "id": "boulgour",
+    "name": "Boulgour aux légumes",
+    "emoji": "🥘",
+    "category": "Végétarien",
+    "batch": true,
+    "items": [
+      {
+        "ingredientId": "boulgour",
+        "grams": 90
+      },
+      {
+        "ingredientId": "petit-pois",
+        "grams": 120
+      },
+      {
+        "ingredientId": "carotte",
+        "grams": 90
+      },
+      {
+        "ingredientId": "courgette",
+        "grams": 140
+      },
+      {
+        "ingredientId": "huile",
+        "grams": 12
+      }
+    ]
+  },
+  {
+    "id": "porridge",
+    "name": "Porridge banane & avoine",
+    "emoji": "🥣",
+    "category": "Rapide",
+    "batch": false,
+    "items": [
+      {
+        "ingredientId": "avoine",
+        "grams": 75
+      },
+      {
+        "ingredientId": "yaourt",
+        "grams": 140
+      },
+      {
+        "ingredientId": "banane",
+        "grams": 110
+      },
+      {
+        "ingredientId": "arachide",
+        "grams": 15
+      }
+    ]
+  },
+  {
+    "id": "snack-yaourt-banane",
+    "name": "Yaourt grec & banane",
+    "emoji": "🍌",
+    "category": "Collation",
+    "batch": false,
+    "items": [
+      {
+        "ingredientId": "yaourt",
+        "grams": 150
+      },
+      {
+        "ingredientId": "banane",
+        "grams": 110
+      }
+    ]
+  },
+  {
+    "id": "snack-pomme-cacahuete",
+    "name": "Pomme & beurre de cacahuète",
+    "emoji": "🍎",
+    "category": "Collation",
+    "batch": false,
+    "items": [
+      {
+        "ingredientId": "pomme",
+        "grams": 160
+      },
+      {
+        "ingredientId": "arachide",
+        "grams": 20
+      }
+    ]
+  },
+  {
+    "id": "snack-tartines",
+    "name": "Tartines au beurre de cacahuète",
+    "emoji": "🍞",
+    "category": "Collation",
+    "batch": false,
+    "items": [
+      {
+        "ingredientId": "pain",
+        "grams": 70
+      },
+      {
+        "ingredientId": "arachide",
+        "grams": 25
+      }
+    ]
+  },
+  {
+    "id": "snack-oeufs-pain",
+    "name": "Œufs durs & pain complet",
+    "emoji": "🥚",
+    "category": "Collation",
+    "batch": true,
+    "items": [
+      {
+        "ingredientId": "oeuf",
+        "grams": 110
+      },
+      {
+        "ingredientId": "pain",
+        "grams": 45
+      }
+    ]
+  },
+  {
+    "id": "snack-yaourt-avoine",
+    "name": "Yaourt & flocons d’avoine",
+    "emoji": "🥣",
+    "category": "Collation",
+    "batch": false,
+    "items": [
+      {
+        "ingredientId": "yaourt",
+        "grams": 170
+      },
+      {
+        "ingredientId": "avoine",
+        "grams": 35
+      }
+    ]
+  },
+  {
+    "id": "poulet-curry",
+    "name": "Poulet curry & riz",
+    "emoji": "🍛",
+    "category": "Protéiné",
+    "batch": true,
+    "items": [
+      {
+        "ingredientId": "poulet",
+        "grams": 160
+      },
+      {
+        "ingredientId": "riz-basmati",
+        "grams": 85
+      },
+      {
+        "ingredientId": "coco",
+        "grams": 95
+      },
+      {
+        "ingredientId": "carotte",
+        "grams": 100
+      },
+      {
+        "ingredientId": "oignon",
+        "grams": 60
+      },
+      {
+        "ingredientId": "curry",
+        "grams": 5
+      }
+    ]
+  },
+  {
+    "id": "dinde-semoule",
+    "name": "Dinde, semoule & carottes",
+    "emoji": "🍽️",
+    "category": "Protéiné",
+    "batch": true,
+    "items": [
+      {
+        "ingredientId": "dinde",
+        "grams": 170
+      },
+      {
+        "ingredientId": "semoule",
+        "grams": 90
+      },
+      {
+        "ingredientId": "carotte",
+        "grams": 180
+      },
+      {
+        "ingredientId": "huile",
+        "grams": 10
+      }
+    ]
+  },
+  {
+    "id": "riz-thon",
+    "name": "Riz au thon, tomates & maïs",
+    "emoji": "🍚",
+    "category": "Rapide",
+    "batch": true,
+    "items": [
+      {
+        "ingredientId": "riz",
+        "grams": 85
+      },
+      {
+        "ingredientId": "thon",
+        "grams": 110
+      },
+      {
+        "ingredientId": "tomate",
+        "grams": 100
+      },
+      {
+        "ingredientId": "mais",
+        "grams": 100
+      },
+      {
+        "ingredientId": "huile",
+        "grams": 8
+      }
+    ]
+  },
+  {
+    "id": "salade-grecque",
+    "name": "Salade grecque & pois chiches",
+    "emoji": "🥗",
+    "category": "Végétarien",
+    "batch": false,
+    "items": [
+      {
+        "ingredientId": "pois-chiche",
+        "grams": 150
+      },
+      {
+        "ingredientId": "concombre",
+        "grams": 110
+      },
+      {
+        "ingredientId": "tomate",
+        "grams": 120
+      },
+      {
+        "ingredientId": "feta",
+        "grams": 45
+      },
+      {
+        "ingredientId": "huile",
+        "grams": 8
+      }
+    ]
+  },
+  {
+    "id": "taboule",
+    "name": "Taboulé aux légumes",
+    "emoji": "🥗",
+    "category": "Végétarien",
+    "batch": true,
+    "items": [
+      {
+        "ingredientId": "semoule",
+        "grams": 90
+      },
+      {
+        "ingredientId": "concombre",
+        "grams": 80
+      },
+      {
+        "ingredientId": "tomate",
+        "grams": 110
+      },
+      {
+        "ingredientId": "citron",
+        "grams": 30
+      },
+      {
+        "ingredientId": "persil",
+        "grams": 8
+      },
+      {
+        "ingredientId": "huile",
+        "grams": 12
+      }
+    ]
+  },
+  {
+    "id": "gratin-chou",
+    "name": "Gratin de chou-fleur",
+    "emoji": "🥘",
+    "category": "Végétarien",
+    "batch": true,
+    "items": [
+      {
+        "ingredientId": "chou-fleur",
+        "grams": 300
+      },
+      {
+        "ingredientId": "lait",
+        "grams": 120
+      },
+      {
+        "ingredientId": "emmental",
+        "grams": 50
+      },
+      {
+        "ingredientId": "pomme-terre",
+        "grams": 160
+      }
+    ]
+  },
+  {
+    "id": "soupe-courge",
+    "name": "Velouté de courge",
+    "emoji": "🍲",
+    "category": "Végétarien",
+    "batch": true,
+    "items": [
+      {
+        "ingredientId": "courge",
+        "grams": 330
+      },
+      {
+        "ingredientId": "carotte",
+        "grams": 100
+      },
+      {
+        "ingredientId": "oignon",
+        "grams": 70
+      },
+      {
+        "ingredientId": "huile",
+        "grams": 8
+      }
+    ]
+  },
+  {
+    "id": "wok-poulet",
+    "name": "Wok poulet & légumes",
+    "emoji": "🍜",
+    "category": "Protéiné",
+    "batch": true,
+    "items": [
+      {
+        "ingredientId": "poulet",
+        "grams": 170
+      },
+      {
+        "ingredientId": "riz-basmati",
+        "grams": 75
+      },
+      {
+        "ingredientId": "brocoli",
+        "grams": 120
+      },
+      {
+        "ingredientId": "poivron",
+        "grams": 100
+      },
+      {
+        "ingredientId": "soja",
+        "grams": 15
+      }
+    ]
+  },
+  {
+    "id": "poisson-patate",
+    "name": "Colin & pommes de terre",
+    "emoji": "🐟",
+    "category": "Protéiné",
+    "batch": true,
+    "items": [
+      {
+        "ingredientId": "colin",
+        "grams": 180
+      },
+      {
+        "ingredientId": "pomme-terre",
+        "grams": 240
+      },
+      {
+        "ingredientId": "haricot-vert",
+        "grams": 170
+      },
+      {
+        "ingredientId": "huile",
+        "grams": 10
+      }
+    ]
+  },
+  {
+    "id": "crevettes-pates",
+    "name": "Pâtes aux crevettes",
+    "emoji": "🍝",
+    "category": "Protéiné",
+    "batch": false,
+    "items": [
+      {
+        "ingredientId": "pates",
+        "grams": 100
+      },
+      {
+        "ingredientId": "crevette",
+        "grams": 150
+      },
+      {
+        "ingredientId": "courgette",
+        "grams": 120
+      },
+      {
+        "ingredientId": "ail",
+        "grams": 6
+      },
+      {
+        "ingredientId": "huile",
+        "grams": 9
+      }
+    ]
+  },
+  {
+    "id": "chili-boeuf",
+    "name": "Chili con carne",
+    "emoji": "🫘",
+    "category": "Protéiné",
+    "batch": true,
+    "items": [
+      {
+        "ingredientId": "boeuf",
+        "grams": 130
+      },
+      {
+        "ingredientId": "haricot",
+        "grams": 170
+      },
+      {
+        "ingredientId": "tomate-conserve",
+        "grams": 160
+      },
+      {
+        "ingredientId": "riz",
+        "grams": 65
+      },
+      {
+        "ingredientId": "oignon",
+        "grams": 45
+      }
+    ]
+  },
+  {
+    "id": "salade-lentilles",
+    "name": "Salade de lentilles & feta",
+    "emoji": "🥗",
+    "category": "Végétarien",
+    "batch": true,
+    "items": [
+      {
+        "ingredientId": "lentille-verte",
+        "grams": 90
+      },
+      {
+        "ingredientId": "feta",
+        "grams": 55
+      },
+      {
+        "ingredientId": "tomate",
+        "grams": 140
+      },
+      {
+        "ingredientId": "concombre",
+        "grams": 90
+      },
+      {
+        "ingredientId": "huile",
+        "grams": 10
+      }
+    ]
+  },
+  {
+    "id": "couscous-legumes",
+    "name": "Couscous végétarien",
+    "emoji": "🥘",
+    "category": "Végétarien",
+    "batch": true,
+    "items": [
+      {
+        "ingredientId": "semoule",
+        "grams": 95
+      },
+      {
+        "ingredientId": "pois-chiche",
+        "grams": 125
+      },
+      {
+        "ingredientId": "courgette",
+        "grams": 130
+      },
+      {
+        "ingredientId": "carotte",
+        "grams": 100
+      },
+      {
+        "ingredientId": "tomate-conserve",
+        "grams": 120
+      }
+    ]
+  },
+  {
+    "id": "lasagne-legumes",
+    "name": "Pâtes ricotta-épinards",
+    "emoji": "🍝",
+    "category": "Végétarien",
+    "batch": true,
+    "items": [
+      {
+        "ingredientId": "pates",
+        "grams": 90
+      },
+      {
+        "ingredientId": "ricotta",
+        "grams": 100
+      },
+      {
+        "ingredientId": "epinard",
+        "grams": 180
+      },
+      {
+        "ingredientId": "tomate-conserve",
+        "grams": 120
+      },
+      {
+        "ingredientId": "parmesan",
+        "grams": 15
+      }
+    ]
+  },
+  {
+    "id": "poulet-pesto",
+    "name": "Pâtes poulet & pesto",
+    "emoji": "🍝",
+    "category": "Protéiné",
+    "batch": true,
+    "items": [
+      {
+        "ingredientId": "poulet",
+        "grams": 160
+      },
+      {
+        "ingredientId": "pates",
+        "grams": 95
+      },
+      {
+        "ingredientId": "pesto",
+        "grams": 25
+      },
+      {
+        "ingredientId": "courgette",
+        "grams": 110
+      }
+    ]
+  },
+  {
+    "id": "bowl-sardines",
+    "name": "Bowl sardines & lentilles",
+    "emoji": "🥣",
+    "category": "Protéiné",
+    "batch": false,
+    "items": [
+      {
+        "ingredientId": "sardine",
+        "grams": 120
+      },
+      {
+        "ingredientId": "lentille-verte",
+        "grams": 75
+      },
+      {
+        "ingredientId": "tomate",
+        "grams": 110
+      },
+      {
+        "ingredientId": "salade",
+        "grams": 60
+      },
+      {
+        "ingredientId": "huile",
+        "grams": 7
+      }
+    ]
+  },
+  {
+    "id": "wrap-poulet",
+    "name": "Wrap poulet & crudités",
+    "emoji": "🌯",
+    "category": "Rapide",
+    "batch": false,
+    "items": [
+      {
+        "ingredientId": "wrap",
+        "grams": 85
+      },
+      {
+        "ingredientId": "poulet",
+        "grams": 130
+      },
+      {
+        "ingredientId": "salade",
+        "grams": 40
+      },
+      {
+        "ingredientId": "tomate",
+        "grams": 80
+      },
+      {
+        "ingredientId": "yaourt",
+        "grams": 45
+      }
+    ]
+  },
+  {
+    "id": "wrap-houmous",
+    "name": "Wrap houmous & légumes",
+    "emoji": "🌯",
+    "category": "Végétarien",
+    "batch": false,
+    "items": [
+      {
+        "ingredientId": "wrap",
+        "grams": 85
+      },
+      {
+        "ingredientId": "houmous",
+        "grams": 90
+      },
+      {
+        "ingredientId": "carotte",
+        "grams": 80
+      },
+      {
+        "ingredientId": "concombre",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "id": "bol-avocat",
+    "name": "Bowl avocat, œuf & riz",
+    "emoji": "🥑",
+    "category": "Protéiné",
+    "batch": false,
+    "items": [
+      {
+        "ingredientId": "riz-complet",
+        "grams": 80
+      },
+      {
+        "ingredientId": "oeuf",
+        "grams": 100
+      },
+      {
+        "ingredientId": "avocat",
+        "grams": 80
+      },
+      {
+        "ingredientId": "tomate",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "id": "salade-haricots",
+    "name": "Salade haricots blancs & thon",
+    "emoji": "🥗",
+    "category": "Rapide",
+    "batch": true,
+    "items": [
+      {
+        "ingredientId": "haricot-blanc",
+        "grams": 160
+      },
+      {
+        "ingredientId": "thon",
+        "grams": 110
+      },
+      {
+        "ingredientId": "oignon",
+        "grams": 40
+      },
+      {
+        "ingredientId": "tomate",
+        "grams": 130
+      },
+      {
+        "ingredientId": "huile",
+        "grams": 8
+      }
+    ]
+  },
+  {
+    "id": "overnight",
+    "name": "Overnight oats & fruits",
+    "emoji": "🥣",
+    "category": "Rapide",
+    "batch": true,
+    "items": [
+      {
+        "ingredientId": "avoine",
+        "grams": 65
+      },
+      {
+        "ingredientId": "lait",
+        "grams": 150
+      },
+      {
+        "ingredientId": "skyr",
+        "grams": 120
+      },
+      {
+        "ingredientId": "fraise",
+        "grams": 80
+      },
+      {
+        "ingredientId": "miel",
+        "grams": 8
+      }
+    ]
+  },
+  {
+    "id": "pancake",
+    "name": "Pancakes avoine & banane",
+    "emoji": "🥞",
+    "category": "Rapide",
+    "batch": true,
+    "items": [
+      {
+        "ingredientId": "avoine",
+        "grams": 70
+      },
+      {
+        "ingredientId": "oeuf",
+        "grams": 60
+      },
+      {
+        "ingredientId": "banane",
+        "grams": 110
+      },
+      {
+        "ingredientId": "lait",
+        "grams": 80
+      }
+    ]
+  },
+  {
+    "id": "toast-avocat",
+    "name": "Toast avocat & œufs",
+    "emoji": "🥑",
+    "category": "Rapide",
+    "batch": false,
+    "items": [
+      {
+        "ingredientId": "pain",
+        "grams": 80
+      },
+      {
+        "ingredientId": "avocat",
+        "grams": 85
+      },
+      {
+        "ingredientId": "oeuf",
+        "grams": 100
+      }
+    ]
+  },
+  {
+    "id": "tartine-ricotta",
+    "name": "Tartines ricotta & miel",
+    "emoji": "🍯",
+    "category": "Collation",
+    "batch": false,
+    "items": [
+      {
+        "ingredientId": "pain",
+        "grams": 60
+      },
+      {
+        "ingredientId": "ricotta",
+        "grams": 60
+      },
+      {
+        "ingredientId": "miel",
+        "grams": 12
+      }
+    ]
+  },
+  {
+    "id": "snack-skyr",
+    "name": "Skyr, fruits & noix",
+    "emoji": "🍓",
+    "category": "Collation",
+    "batch": false,
+    "items": [
+      {
+        "ingredientId": "skyr",
+        "grams": 170
+      },
+      {
+        "ingredientId": "fraise",
+        "grams": 100
+      },
+      {
+        "ingredientId": "noix",
+        "grams": 20
+      }
+    ]
+  },
+  {
+    "id": "snack-amandes",
+    "name": "Pomme & amandes",
+    "emoji": "🍎",
+    "category": "Collation",
+    "batch": false,
+    "items": [
+      {
+        "ingredientId": "pomme",
+        "grams": 160
+      },
+      {
+        "ingredientId": "amande",
+        "grams": 25
+      }
+    ]
+  },
+  {
+    "id": "snack-chocolat",
+    "name": "Chocolat noir & poire",
+    "emoji": "🍫",
+    "category": "Collation",
+    "batch": false,
+    "items": [
+      {
+        "ingredientId": "poire",
+        "grams": 170
+      },
+      {
+        "ingredientId": "chocolat",
+        "grams": 25
+      }
+    ]
+  },
+  {
+    "id": "snack-fromage",
+    "name": "Fromage blanc, avoine & miel",
+    "emoji": "🥣",
+    "category": "Collation",
+    "batch": false,
+    "items": [
+      {
+        "ingredientId": "fromage-blanc",
+        "grams": 190
+      },
+      {
+        "ingredientId": "avoine",
+        "grams": 35
+      },
+      {
+        "ingredientId": "miel",
+        "grams": 10
+      }
+    ]
+  },
+  {
+    "id": "snack-bananes",
+    "name": "Smoothie banane & lait",
+    "emoji": "🥤",
+    "category": "Collation",
+    "batch": false,
+    "items": [
+      {
+        "ingredientId": "banane",
+        "grams": 120
+      },
+      {
+        "ingredientId": "lait",
+        "grams": 240
+      },
+      {
+        "ingredientId": "avoine",
+        "grams": 25
+      }
+    ]
+  },
+  {
+    "id": "snack-brouillade",
+    "name": "Œufs brouillés & tartine",
+    "emoji": "🍳",
+    "category": "Collation",
+    "batch": false,
+    "items": [
+      {
+        "ingredientId": "oeuf",
+        "grams": 110
+      },
+      {
+        "ingredientId": "pain",
+        "grams": 45
+      },
+      {
+        "ingredientId": "beurre",
+        "grams": 5
+      }
+    ]
+  },
+  {
+    "id": "salade-poireaux",
+    "name": "Quiche sans pâte poireaux",
+    "emoji": "🥧",
+    "category": "Végétarien",
+    "batch": true,
+    "items": [
+      {
+        "ingredientId": "oeuf",
+        "grams": 130
+      },
+      {
+        "ingredientId": "lait",
+        "grams": 120
+      },
+      {
+        "ingredientId": "poireau",
+        "grams": 160
+      },
+      {
+        "ingredientId": "emmental",
+        "grams": 40
+      }
+    ]
+  },
+  {
+    "id": "porridge-cacao",
+    "name": "Porridge chocolat & myrtilles",
+    "emoji": "🫐",
+    "category": "Rapide",
+    "batch": false,
+    "items": [
+      {
+        "ingredientId": "avoine",
+        "grams": 75
+      },
+      {
+        "ingredientId": "lait",
+        "grams": 180
+      },
+      {
+        "ingredientId": "chocolat",
+        "grams": 20
+      },
+      {
+        "ingredientId": "myrtille",
+        "grams": 90
+      }
+    ]
+  },
+  {
+    "id": "riz-dinde",
+    "name": "Riz dinde & champignons",
+    "emoji": "🍚",
+    "category": "Protéiné",
+    "batch": true,
+    "items": [
+      {
+        "ingredientId": "dinde",
+        "grams": 165
+      },
+      {
+        "ingredientId": "riz",
+        "grams": 85
+      },
+      {
+        "ingredientId": "champignon",
+        "grams": 150
+      },
+      {
+        "ingredientId": "yaourt",
+        "grams": 60
+      },
+      {
+        "ingredientId": "oignon",
+        "grams": 40
+      }
+    ]
+  },
+  {
+    "id": "bol-legumineuses",
+    "name": "Buddha bowl lentilles & quinoa",
+    "emoji": "🥗",
+    "category": "Végétarien",
+    "batch": true,
+    "items": [
+      {
+        "ingredientId": "lentille-verte",
+        "grams": 75
+      },
+      {
+        "ingredientId": "quinoa",
+        "grams": 65
+      },
+      {
+        "ingredientId": "carotte",
+        "grams": 100
+      },
+      {
+        "ingredientId": "brocoli",
+        "grams": 120
+      },
+      {
+        "ingredientId": "huile",
+        "grams": 10
+      }
+    ]
+  },
+  {
+    "id": "salade-saumon",
+    "name": "Salade saumon, pomme de terre",
+    "emoji": "🥗",
+    "category": "Protéiné",
+    "batch": false,
+    "items": [
+      {
+        "ingredientId": "saumon",
+        "grams": 140
+      },
+      {
+        "ingredientId": "pomme-terre",
+        "grams": 210
+      },
+      {
+        "ingredientId": "concombre",
+        "grams": 100
+      },
+      {
+        "ingredientId": "yaourt",
+        "grams": 60
+      }
+    ]
+  }
+]

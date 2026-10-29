@@ -1,0 +1,512 @@
+[
+  {
+    "id": "poulet",
+    "name": "Blanc de poulet (cru)",
+    "kcal": 110,
+    "group": "Viandes & poissons"
+  },
+  {
+    "id": "saumon",
+    "name": "Saumon (cru)",
+    "kcal": 208,
+    "group": "Viandes & poissons"
+  },
+  {
+    "id": "boeuf",
+    "name": "Bœuf haché 15 %",
+    "kcal": 215,
+    "group": "Viandes & poissons"
+  },
+  {
+    "id": "thon",
+    "name": "Thon au naturel (égoutté)",
+    "kcal": 115,
+    "group": "Viandes & poissons"
+  },
+  {
+    "id": "tofu",
+    "name": "Tofu nature",
+    "kcal": 125,
+    "group": "Frais & œufs"
+  },
+  {
+    "id": "oeuf",
+    "name": "Œuf entier",
+    "kcal": 143,
+    "group": "Frais & œufs"
+  },
+  {
+    "id": "riz",
+    "name": "Riz blanc (sec)",
+    "kcal": 360,
+    "group": "Féculents & céréales"
+  },
+  {
+    "id": "pates",
+    "name": "Pâtes (sèches)",
+    "kcal": 353,
+    "group": "Féculents & céréales"
+  },
+  {
+    "id": "quinoa",
+    "name": "Quinoa (sec)",
+    "kcal": 370,
+    "group": "Féculents & céréales"
+  },
+  {
+    "id": "boulgour",
+    "name": "Boulgour (sec)",
+    "kcal": 342,
+    "group": "Féculents & céréales"
+  },
+  {
+    "id": "pomme-terre",
+    "name": "Pomme de terre",
+    "kcal": 80,
+    "group": "Féculents & céréales"
+  },
+  {
+    "id": "patate-douce",
+    "name": "Patate douce",
+    "kcal": 86,
+    "group": "Féculents & céréales"
+  },
+  {
+    "id": "avoine",
+    "name": "Flocons d’avoine",
+    "kcal": 370,
+    "group": "Féculents & céréales"
+  },
+  {
+    "id": "pain",
+    "name": "Pain complet",
+    "kcal": 250,
+    "group": "Féculents & céréales"
+  },
+  {
+    "id": "lentille",
+    "name": "Lentilles corail (sèches)",
+    "kcal": 352,
+    "group": "Légumineuses"
+  },
+  {
+    "id": "haricot",
+    "name": "Haricots rouges (égouttés)",
+    "kcal": 110,
+    "group": "Légumineuses"
+  },
+  {
+    "id": "pois-chiche",
+    "name": "Pois chiches (égouttés)",
+    "kcal": 120,
+    "group": "Légumineuses"
+  },
+  {
+    "id": "brocoli",
+    "name": "Brocoli",
+    "kcal": 34,
+    "group": "Fruits & légumes"
+  },
+  {
+    "id": "carotte",
+    "name": "Carotte",
+    "kcal": 40,
+    "group": "Fruits & légumes"
+  },
+  {
+    "id": "courgette",
+    "name": "Courgette",
+    "kcal": 17,
+    "group": "Fruits & légumes"
+  },
+  {
+    "id": "poivron",
+    "name": "Poivron",
+    "kcal": 26,
+    "group": "Fruits & légumes"
+  },
+  {
+    "id": "tomate",
+    "name": "Tomate",
+    "kcal": 18,
+    "group": "Fruits & légumes"
+  },
+  {
+    "id": "tomate-conserve",
+    "name": "Tomates concassées",
+    "kcal": 24,
+    "group": "Fruits & légumes"
+  },
+  {
+    "id": "oignon",
+    "name": "Oignon",
+    "kcal": 40,
+    "group": "Fruits & légumes"
+  },
+  {
+    "id": "ail",
+    "name": "Ail",
+    "kcal": 149,
+    "group": "Fruits & légumes"
+  },
+  {
+    "id": "epinard",
+    "name": "Épinards",
+    "kcal": 23,
+    "group": "Fruits & légumes"
+  },
+  {
+    "id": "salade",
+    "name": "Salade verte",
+    "kcal": 15,
+    "group": "Fruits & légumes"
+  },
+  {
+    "id": "petit-pois",
+    "name": "Petits pois",
+    "kcal": 75,
+    "group": "Fruits & légumes"
+  },
+  {
+    "id": "citron",
+    "name": "Citron",
+    "kcal": 29,
+    "group": "Fruits & légumes"
+  },
+  {
+    "id": "banane",
+    "name": "Banane",
+    "kcal": 89,
+    "group": "Fruits & légumes"
+  },
+  {
+    "id": "pomme",
+    "name": "Pomme",
+    "kcal": 52,
+    "group": "Fruits & légumes"
+  },
+  {
+    "id": "feta",
+    "name": "Feta",
+    "kcal": 265,
+    "group": "Frais & œufs"
+  },
+  {
+    "id": "mozzarella",
+    "name": "Mozzarella",
+    "kcal": 250,
+    "group": "Frais & œufs"
+  },
+  {
+    "id": "emmental",
+    "name": "Emmental râpé",
+    "kcal": 380,
+    "group": "Frais & œufs"
+  },
+  {
+    "id": "yaourt",
+    "name": "Yaourt grec nature",
+    "kcal": 100,
+    "group": "Frais & œufs"
+  },
+  {
+    "id": "huile",
+    "name": "Huile d’olive",
+    "kcal": 884,
+    "group": "Épicerie"
+  },
+  {
+    "id": "coco",
+    "name": "Lait de coco",
+    "kcal": 190,
+    "group": "Épicerie"
+  },
+  {
+    "id": "curry",
+    "name": "Curry en poudre",
+    "kcal": 325,
+    "group": "Épicerie"
+  },
+  {
+    "id": "soja",
+    "name": "Sauce soja",
+    "kcal": 55,
+    "group": "Épicerie"
+  },
+  {
+    "id": "arachide",
+    "name": "Beurre de cacahuète",
+    "kcal": 600,
+    "group": "Épicerie"
+  },
+  {
+    "id": "sel",
+    "name": "Sel",
+    "kcal": 0,
+    "group": "Épicerie"
+  },
+  {
+    "id": "poivre",
+    "name": "Poivre",
+    "kcal": 251,
+    "group": "Épicerie"
+  },
+  {
+    "id": "riz-basmati",
+    "name": "Riz basmati (sec)",
+    "kcal": 350,
+    "group": "Féculents & céréales"
+  },
+  {
+    "id": "riz-complet",
+    "name": "Riz complet (sec)",
+    "kcal": 360,
+    "group": "Féculents & céréales"
+  },
+  {
+    "id": "lentille-verte",
+    "name": "Lentilles vertes (sèches)",
+    "kcal": 327,
+    "group": "Légumineuses"
+  },
+  {
+    "id": "lait",
+    "name": "Lait demi-écrémé",
+    "kcal": 47,
+    "group": "Frais & œufs"
+  },
+  {
+    "id": "fromage-blanc",
+    "name": "Fromage blanc nature",
+    "kcal": 75,
+    "group": "Frais & œufs"
+  },
+  {
+    "id": "skyr",
+    "name": "Skyr nature",
+    "kcal": 63,
+    "group": "Frais & œufs"
+  },
+  {
+    "id": "beurre",
+    "name": "Beurre doux",
+    "kcal": 740,
+    "group": "Frais & œufs"
+  },
+  {
+    "id": "parmesan",
+    "name": "Parmesan",
+    "kcal": 392,
+    "group": "Frais & œufs"
+  },
+  {
+    "id": "ricotta",
+    "name": "Ricotta",
+    "kcal": 174,
+    "group": "Frais & œufs"
+  },
+  {
+    "id": "chevre",
+    "name": "Fromage de chèvre",
+    "kcal": 290,
+    "group": "Frais & œufs"
+  },
+  {
+    "id": "jambon",
+    "name": "Jambon blanc",
+    "kcal": 116,
+    "group": "Viandes & poissons"
+  },
+  {
+    "id": "dinde",
+    "name": "Escalope de dinde",
+    "kcal": 110,
+    "group": "Viandes & poissons"
+  },
+  {
+    "id": "sardine",
+    "name": "Sardines en conserve (égouttées)",
+    "kcal": 208,
+    "group": "Viandes & poissons"
+  },
+  {
+    "id": "crevette",
+    "name": "Crevettes (décortiquées)",
+    "kcal": 99,
+    "group": "Viandes & poissons"
+  },
+  {
+    "id": "colin",
+    "name": "Filet de colin",
+    "kcal": 82,
+    "group": "Viandes & poissons"
+  },
+  {
+    "id": "avocat",
+    "name": "Avocat (chair)",
+    "kcal": 155,
+    "group": "Fruits & légumes"
+  },
+  {
+    "id": "concombre",
+    "name": "Concombre",
+    "kcal": 15,
+    "group": "Fruits & légumes"
+  },
+  {
+    "id": "champignon",
+    "name": "Champignons de Paris",
+    "kcal": 22,
+    "group": "Fruits & légumes"
+  },
+  {
+    "id": "haricot-vert",
+    "name": "Haricots verts",
+    "kcal": 31,
+    "group": "Fruits & légumes"
+  },
+  {
+    "id": "chou-fleur",
+    "name": "Chou-fleur",
+    "kcal": 25,
+    "group": "Fruits & légumes"
+  },
+  {
+    "id": "poireau",
+    "name": "Poireau",
+    "kcal": 31,
+    "group": "Fruits & légumes"
+  },
+  {
+    "id": "courge",
+    "name": "Courge butternut",
+    "kcal": 45,
+    "group": "Fruits & légumes"
+  },
+  {
+    "id": "fraise",
+    "name": "Fraises",
+    "kcal": 32,
+    "group": "Fruits & légumes"
+  },
+  {
+    "id": "orange",
+    "name": "Orange",
+    "kcal": 47,
+    "group": "Fruits & légumes"
+  },
+  {
+    "id": "myrtille",
+    "name": "Myrtilles",
+    "kcal": 57,
+    "group": "Fruits & légumes"
+  },
+  {
+    "id": "poire",
+    "name": "Poire",
+    "kcal": 57,
+    "group": "Fruits & légumes"
+  },
+  {
+    "id": "amande",
+    "name": "Amandes",
+    "kcal": 579,
+    "group": "Épicerie"
+  },
+  {
+    "id": "noix",
+    "name": "Cerneaux de noix",
+    "kcal": 654,
+    "group": "Épicerie"
+  },
+  {
+    "id": "miel",
+    "name": "Miel",
+    "kcal": 304,
+    "group": "Épicerie"
+  },
+  {
+    "id": "chocolat",
+    "name": "Chocolat noir 70 %",
+    "kcal": 598,
+    "group": "Épicerie"
+  },
+  {
+    "id": "cannelle",
+    "name": "Cannelle",
+    "kcal": 247,
+    "group": "Épicerie"
+  },
+  {
+    "id": "wrap",
+    "name": "Tortilla de blé",
+    "kcal": 300,
+    "group": "Féculents & céréales"
+  },
+  {
+    "id": "semoule",
+    "name": "Semoule de couscous (sèche)",
+    "kcal": 360,
+    "group": "Féculents & céréales"
+  },
+  {
+    "id": "mais",
+    "name": "Maïs doux (égoutté)",
+    "kcal": 100,
+    "group": "Légumineuses"
+  },
+  {
+    "id": "haricot-blanc",
+    "name": "Haricots blancs (égouttés)",
+    "kcal": 104,
+    "group": "Légumineuses"
+  },
+  {
+    "id": "houmous",
+    "name": "Houmous",
+    "kcal": 240,
+    "group": "Épicerie"
+  },
+  {
+    "id": "pesto",
+    "name": "Pesto vert",
+    "kcal": 430,
+    "group": "Épicerie"
+  },
+  {
+    "id": "moutarde",
+    "name": "Moutarde",
+    "kcal": 150,
+    "group": "Épicerie"
+  },
+  {
+    "id": "paprika",
+    "name": "Paprika",
+    "kcal": 282,
+    "group": "Épicerie"
+  },
+  {
+    "id": "persil",
+    "name": "Persil frais",
+    "kcal": 36,
+    "group": "Fruits & légumes"
+  },
+  {
+    "id": "cumin",
+    "name": "Cumin moulu",
+    "kcal": 375,
+    "group": "Épicerie"
+  },
+  {
+    "id": "vinaigre",
+    "name": "Vinaigre balsamique",
+    "kcal": 110,
+    "group": "Épicerie"
+  },
+  {
+    "id": "eau",
+    "name": "Eau (recette)",
+    "kcal": 0,
+    "group": "Épicerie"
+  }
+]

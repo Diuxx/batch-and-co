@@ -1,0 +1,772 @@
+{
+  "checkedAt": "2026-10-25",
+  "currency": "EUR",
+  "notes": "Prix Carrefour en ligne consultés le 25/10/2026. Prix de référence par kilogramme pour toutes les recettes (même pour les liquides et les œufs). Les prix varient selon le magasin. estimated = valeur éditoriale non vérifiée.",
+  "items": {
+    "poulet": {
+      "eurPerKg": 10.29,
+      "status": "verified",
+      "retailer": "Simpl’",
+      "pack": "1 kg",
+      "packagePrice": 10.29,
+      "url": "https://www.carrefour.fr/s?q=filets+de+poulet+1kg",
+      "note": ""
+    },
+    "saumon": {
+      "eurPerKg": 19,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "boeuf": {
+      "eurPerKg": 12.9,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "thon": {
+      "eurPerKg": 12.1071,
+      "status": "verified",
+      "retailer": "Carrefour Classic’",
+      "pack": "2 × 140 g égouttés",
+      "packagePrice": 3.39,
+      "url": "https://www.carrefour.fr/s?q=thon+naturel",
+      "note": ""
+    },
+    "tofu": {
+      "eurPerKg": 9,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "oeuf": {
+      "eurPerKg": 5.15,
+      "status": "verified",
+      "retailer": "Carrefour Original",
+      "pack": "12 œufs",
+      "packagePrice": 3.09,
+      "url": "https://www.carrefour.fr/s?q=12+oeufs",
+      "note": "Conversion indicative : 12 œufs ≈ 600 g de partie comestible (50 g chacun)."
+    },
+    "riz": {
+      "eurPerKg": 1.7,
+      "status": "verified",
+      "retailer": "Carrefour Classic’",
+      "pack": "1 kg",
+      "packagePrice": 1.7,
+      "url": "https://www.carrefour.fr/p/riz-long-incollable-10-min-carrefour-classic-3560070822294",
+      "note": ""
+    },
+    "pates": {
+      "eurPerKg": 1.4,
+      "status": "verified",
+      "retailer": "Carrefour Classic’",
+      "pack": "500 g",
+      "packagePrice": 0.7,
+      "url": "https://www.carrefour.fr/s?q=pates+carrefour",
+      "note": ""
+    },
+    "quinoa": {
+      "eurPerKg": 8.5,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "boulgour": {
+      "eurPerKg": 3.4,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "pomme-terre": {
+      "eurPerKg": 1.8,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "patate-douce": {
+      "eurPerKg": 3.5,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "avoine": {
+      "eurPerKg": 1.58,
+      "status": "verified",
+      "retailer": "Carrefour Original",
+      "pack": "500 g",
+      "packagePrice": 0.79,
+      "url": "https://www.carrefour.fr/s?q=flocons+avoine",
+      "note": ""
+    },
+    "pain": {
+      "eurPerKg": 3.7,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "lentille": {
+      "eurPerKg": 3.5,
+      "status": "verified",
+      "retailer": "Carrefour Classic’",
+      "pack": "500 g",
+      "packagePrice": 1.75,
+      "url": "https://www.carrefour.fr/s?q=lentilles",
+      "note": ""
+    },
+    "haricot": {
+      "eurPerKg": 3.5,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "pois-chiche": {
+      "eurPerKg": 2.2453,
+      "status": "verified",
+      "retailer": "Carrefour Classic’",
+      "pack": "530 g égouttés",
+      "packagePrice": 1.19,
+      "url": "https://www.carrefour.fr/p/pois-chiches-carrefour-classic-3560070329410",
+      "note": ""
+    },
+    "brocoli": {
+      "eurPerKg": 3.5,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "carotte": {
+      "eurPerKg": 1.8,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "courgette": {
+      "eurPerKg": 2.5,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "poivron": {
+      "eurPerKg": 4,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "tomate": {
+      "eurPerKg": 3,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "tomate-conserve": {
+      "eurPerKg": 2.4,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "oignon": {
+      "eurPerKg": 2,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "ail": {
+      "eurPerKg": 8,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "epinard": {
+      "eurPerKg": 3.5,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "salade": {
+      "eurPerKg": 3.5,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "petit-pois": {
+      "eurPerKg": 3.8,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "citron": {
+      "eurPerKg": 3,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "banane": {
+      "eurPerKg": 2,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "pomme": {
+      "eurPerKg": 2.5,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "feta": {
+      "eurPerKg": 12,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "mozzarella": {
+      "eurPerKg": 9,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "emmental": {
+      "eurPerKg": 9.9,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "yaourt": {
+      "eurPerKg": 2.39,
+      "status": "verified",
+      "retailer": "Carrefour Extra",
+      "pack": "1 kg",
+      "packagePrice": 2.39,
+      "url": "https://www.carrefour.fr/s?q=Yaourt+grecque+nature",
+      "note": ""
+    },
+    "huile": {
+      "eurPerKg": 8.7802,
+      "status": "verified",
+      "retailer": "Carrefour Extra",
+      "pack": "1 L",
+      "packagePrice": 7.99,
+      "url": "https://www.carrefour.fr/s?q=huile+d+olive",
+      "note": "Conversion indicative : 1 L d’huile ≈ 910 g."
+    },
+    "coco": {
+      "eurPerKg": 4.8,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "curry": {
+      "eurPerKg": 30,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "soja": {
+      "eurPerKg": 6,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "arachide": {
+      "eurPerKg": 9.1143,
+      "status": "verified",
+      "retailer": "Carrefour Bio",
+      "pack": "350 g",
+      "packagePrice": 3.19,
+      "url": "https://www.carrefour.fr/s?q=beurre+de+cacahuete",
+      "note": ""
+    },
+    "sel": {
+      "eurPerKg": 1,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "poivre": {
+      "eurPerKg": 35,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "riz-basmati": {
+      "eurPerKg": 2.55,
+      "status": "verified",
+      "retailer": "Carrefour Extra",
+      "pack": "1 kg",
+      "packagePrice": 2.55,
+      "url": "https://www.carrefour.fr/s?q=riz+carrefour",
+      "note": ""
+    },
+    "riz-complet": {
+      "eurPerKg": 3.1,
+      "status": "verified",
+      "retailer": "Carrefour Classic’",
+      "pack": "500 g",
+      "packagePrice": 1.55,
+      "url": "https://www.carrefour.fr/r/epicerie-salee/pates-riz-feculents/riz",
+      "note": ""
+    },
+    "lentille-verte": {
+      "eurPerKg": 3.3,
+      "status": "verified",
+      "retailer": "Carrefour Classic’",
+      "pack": "500 g",
+      "packagePrice": 1.65,
+      "url": "https://www.carrefour.fr/p/lentilles-vertes-carrefour-classic-3560071456702",
+      "note": ""
+    },
+    "lait": {
+      "eurPerKg": 1.05,
+      "status": "verified",
+      "retailer": "Carrefour Classic’",
+      "pack": "1 L",
+      "packagePrice": 1.05,
+      "url": "https://www.carrefour.fr/s?q=lait+1l",
+      "note": "Approximation de calcul : 1 L ≈ 1 kg."
+    },
+    "fromage-blanc": {
+      "eurPerKg": 3.1,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "skyr": {
+      "eurPerKg": 4.9,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "beurre": {
+      "eurPerKg": 9.0,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "parmesan": {
+      "eurPerKg": 18,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "ricotta": {
+      "eurPerKg": 10,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "chevre": {
+      "eurPerKg": 13.9,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "jambon": {
+      "eurPerKg": 14,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "dinde": {
+      "eurPerKg": 12,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "sardine": {
+      "eurPerKg": 11,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "crevette": {
+      "eurPerKg": 18,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "colin": {
+      "eurPerKg": 12,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "avocat": {
+      "eurPerKg": 8,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "concombre": {
+      "eurPerKg": 2.8,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "champignon": {
+      "eurPerKg": 4.5,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "haricot-vert": {
+      "eurPerKg": 3,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "chou-fleur": {
+      "eurPerKg": 3.5,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "poireau": {
+      "eurPerKg": 2.8,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "courge": {
+      "eurPerKg": 3.4,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "fraise": {
+      "eurPerKg": 7.9,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "orange": {
+      "eurPerKg": 2.7,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "myrtille": {
+      "eurPerKg": 12,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "poire": {
+      "eurPerKg": 3,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "amande": {
+      "eurPerKg": 13,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "noix": {
+      "eurPerKg": 16,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "miel": {
+      "eurPerKg": 11,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "chocolat": {
+      "eurPerKg": 13,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "cannelle": {
+      "eurPerKg": 34,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "wrap": {
+      "eurPerKg": 6,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "semoule": {
+      "eurPerKg": 2,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "mais": {
+      "eurPerKg": 3,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "haricot-blanc": {
+      "eurPerKg": 3.5,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "houmous": {
+      "eurPerKg": 8,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "pesto": {
+      "eurPerKg": 10,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "moutarde": {
+      "eurPerKg": 4.5,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "paprika": {
+      "eurPerKg": 24,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "persil": {
+      "eurPerKg": 15,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "cumin": {
+      "eurPerKg": 31,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "vinaigre": {
+      "eurPerKg": 4,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    },
+    "eau": {
+      "eurPerKg": 0,
+      "status": "estimated",
+      "retailer": null,
+      "pack": null,
+      "packagePrice": null,
+      "url": null,
+      "note": "Estimation à personnaliser"
+    }
+  }
+}
