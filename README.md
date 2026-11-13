@@ -1,6 +1,6 @@
 # Batch & Co — Eleventy
 
-Planification de repas sur une seule page, sans backend ni compte, avec calories, coût théorique, ingrédients, recettes personnalisables, collations, liste de courses et import/export JSON.
+Planification de repas sur une seule page, avec stockage local et connexion Google facultative via Nicolabz Identity, avec calories, coût théorique, ingrédients, recettes personnalisables, collations, liste de courses et import/export JSON.
 
 ## Installation
 
@@ -67,10 +67,25 @@ Si le prix n'est pas vérifié : mettre `status: "estimated"` et adapter `retail
 
 - Liste de courses calculée par grammage consommé, sans arrondi aux conditionnements réellement vendus.
 - Les kcal affichées correspondent aux quantités de matières premières de chaque recette, pas à des valeurs de laboratoire après cuisson ; perte de cuisson et déchets non gérés.
-- Aucune synchronisation multi-appareils automatique (l'export/import est manuel).
+- Synchronisation multi-appareils **manuelle** via Nicolabz Identity et Google Drive ; l’import/export JSON reste disponible sans compte.
 - Les préparations peuvent être répétées sur plusieurs jours, mais il n'y a pas encore de plan de sessions de cuisine, de gestion de conservation ou de chaîne du froid.
 - Les ingrédients personnalisés ajoutés dans l'interface sont propres à la session locale ; pour les rendre préchargés sur tous les appareils, les reporter dans les fichiers JSON avant build.
 
 ## Vérification
 
 `npm test` couvre les calculs, l'agrégation des quantités de courses et la cohérence des informations de prix. Pour tester l'application dans le navigateur, se référer à `tests/browser-smoke.py` (Chromium et Playwright Python requis pour ce script de développement). Le rendu Eleventy dépend de `npm install` qui nécessite un accès au registre npm.
+
+
+## Connexion Google et Drive (v1.2)
+
+L'intégration reprend le fonctionnement de **Marge (budget-nicolabz)** : avatar de profil en haut à droite, session centralisée et consentement Drive séparé. Elle remplace l'approche de la v1.1 où le navigateur appelait directement les APIs Google.
+
+- `GET /api/session` : état de connexion et photo de l'utilisateur.
+- `/auth/google/start?app=batch-and-co` : connexion gérée par Nicolabz Identity.
+- `/auth/drive/start?app=batch-and-co` : consentement séparé.
+- `GET/PUT /api/sync/batch-and-co` : sauvegarde JSON, avec contrôle de version et conflits.
+- Stockage local inchangé : `batch-and-co.v1`, export et import JSON toujours actifs.
+
+**À faire sur l'API** : ajouter une application `batch-and-co` et les origines exactes à `CLIENT_APPS_JSON`. Aucun identifiant OAuth Google n'est à mettre dans ce dépôt.
+
+Le guide détaillé, la configuration locale et la procédure de migration se trouvent dans [docs/NICOLABZ_IDENTITY.md](docs/NICOLABZ_IDENTITY.md).

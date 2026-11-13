@@ -1,3 +1,4 @@
+import { initIdentity } from './identity/controller.mjs';
 import { calculateRecipeTotals, buildShoppingList } from "./domain.mjs";
 /* Batch & Co — Interface et contrôleurs ; prix et recettes fournis au build Eleventy. */
 (() => {
@@ -42,6 +43,7 @@ import { calculateRecipeTotals, buildShoppingList } from "./domain.mjs";
     let activeWeek = dateISO(upcomingWeek());
     const defaultState = () => ({ schemaVersion: 3, priceOverrides: {}, deletedSeedRecipeIds: [], ingredients: structuredClone(SEED_INGREDIENTS), recipes: structuredClone(SEED_RECIPES), plans: { [activeWeek]: structuredClone(seedSlots) }, stock: {}, budget: 50 });
     let state;
+    let identityController;
     let chosenSlot = '3-dinner';
     let recipeFilter = 'Tous';
     let editorId = null;
@@ -160,6 +162,7 @@ import { calculateRecipeTotals, buildShoppingList } from "./domain.mjs";
     function save() { try {
         localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
         $('save-status').textContent = '✓ Enregistré localement';
+        identityController?.markLocalModified();
     }
     catch {
         $('save-status').textContent = '⚠ Stockage local indisponible';
@@ -500,6 +503,20 @@ import { calculateRecipeTotals, buildShoppingList } from "./domain.mjs";
         toast('Import refusé : ' + error.message);
     } });
     state = load();
+    identityController = initIdentity({
+        getSnapshot: () => structuredClone(state),
+        applySnapshot: async snapshot => {
+            // Existing validation also migrates V1/V2 and reloads build catalog prices.
+            const incoming = hydrateCatalog(validateData(snapshot));
+            const formerState = state;
+            state = incoming;
+            try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); }
+            catch (error) { state = formerState; throw new Error('Impossible d’enregistrer les données Drive localement.', { cause: error }); }
+            activeWeek = Object.keys(state.plans).sort().at(-1) || dateISO(upcomingWeek());
+            chosenSlot = '0-lunch';
+            render();
+        }
+    });
     document.getElementById('save-status').title = 'Catalogue des prix : relevé ' + pricing.checkedAt;
     render();
 })();

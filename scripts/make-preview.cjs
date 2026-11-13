@@ -13,5 +13,6 @@ fs.mkdirSync(path.join(out,'assets/js'),{recursive:true});
 fs.copyFileSync(path.join(src,'assets/css/main.css'),path.join(out,'assets/css/main.css'));
 fs.copyFileSync(path.join(src,'assets/js/app.js'),path.join(out,'assets/js/app.js'));
 fs.copyFileSync(path.join(src,'assets/js/domain.mjs'),path.join(out,'assets/js/domain.mjs'));
+fs.cpSync(path.join(src,'assets/js/identity'),path.join(out,'assets/js/identity'),{recursive:true});
 fs.writeFileSync(path.join(out,'index.html'),layout);
 console.log('Static preview ready:',path.join(out,'index.html'));

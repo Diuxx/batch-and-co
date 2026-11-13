@@ -1181,3 +1181,40 @@ dialog::backdrop {
 
 }
 
+
+/* Nicolabz Identity — compact account control inspired by Marge's header. */
+.identity-header { display:flex; align-items:center; gap:12px; margin-left:7px; }
+.identity-status { color:var(--muted); font-size:11px; white-space:nowrap; }
+.identity-status[data-state="connected"] { color:var(--accent); }
+.identity-status[data-state="error"] { color:var(--orange); }
+.profile-menu { position:relative; z-index:30; flex:none; }
+.profile-menu > summary { list-style:none; cursor:pointer; }
+.profile-menu > summary::-webkit-details-marker { display:none; }
+.profile-trigger { display:grid; place-items:center; width:42px; height:42px; border:2px solid #546c51; border-radius:50%; background:var(--panel-3); overflow:hidden; }
+.profile-trigger:hover, .profile-trigger:focus-visible { border-color:var(--accent); outline-offset:3px; }
+.profile-avatar { width:100%; height:100%; border-radius:50%; object-fit:cover; }
+.profile-fallback { display:grid; place-items:center; color:var(--accent); font-size:14px; font-weight:800; }
+.profile-avatar[hidden], .profile-action[hidden] { display:none !important; }
+.profile-panel { position:absolute; top:calc(100% + 10px); right:0; width:min(330px,calc(100vw - 26px)); background:#1a261d; border:1px solid #435747; border-radius:15px; padding:9px; box-shadow:0 20px 45px #0009; }
+.profile-heading { display:flex; flex-direction:column; gap:5px; padding:12px 11px; overflow-wrap:anywhere; }
+.profile-heading strong { font-size:14px; }
+.profile-heading small { color:var(--muted); font-size:11px; }
+.profile-heading span { color:var(--accent); font-size:11px; margin-top:3px; }
+.profile-separator { height:1px; background:var(--line); margin:6px 4px; }
+.profile-action { display:block; width:100%; text-align:left; padding:11px; background:transparent; border:0; border-radius:8px; font-size:12px; color:var(--text); }
+.profile-action:hover { background:#314535; color:var(--accent); }
+.profile-action:disabled { opacity:.5; }
+.profile-danger { color:var(--red); }
+.identity-conflict-dialog { max-width:540px; }
+.identity-warning { margin:0 0 16px; color:var(--orange); font-size:12px; line-height:1.6; }
+.identity-choices { display:flex; flex-wrap:wrap; justify-content:flex-end; gap:8px; }
+.identity-conflict-dialog h2 { margin:0 0 12px; }
+@media(max-width:680px) {
+  .topbar { flex-direction:column; align-items:stretch; }
+  .top-actions { display:flex; flex-wrap:wrap; gap:7px; justify-content:flex-start; }
+  .top-actions > .button { flex:1 1 auto; }
+  .identity-header { margin-left:auto; }
+  .identity-status { font-size:10px; }
+  .profile-panel { right:0; }
+}
+@media print { .identity-header { display:none !important; } }
